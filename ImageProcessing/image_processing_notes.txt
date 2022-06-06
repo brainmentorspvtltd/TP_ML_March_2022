@@ -1,0 +1,24 @@
+Rescaling
+- INTER_AREA   	- shrink image
+- INTER_CUBIC	- scale image
+- INTER_LINEAR	- enlarge image with faster performance
+Blurring - Blurring is achieved by convolving the image with low pass filter kernel
+    - we use low pass filter to remove noise from image or blurring image
+    - we use high pass filter to find edges in images
+- Averaging
+   - we give equal weight to each pixel in kernel
+- Gaussian
+  - almost similar to averaging but instead of using simple mean is uses weighted mean, where neighbour pixels that are closer to central pixel contributes more weight to average
+   - here we can specify standard deviation in x and y direction -> sigmax and sigmay
+- Median
+   - central element in kernel area is replaced with median of all pixels under the kernel
+- Bilateral
+   - highly effective in noise removal while keeping edges sharp
+Thresholding
+   - if pixel value is smaller than particular threshold it is set to 0, otherwise set to max value
+Adaptive Thresholding
+Otsu's Binarization
+
+
+
+
