@@ -1,0 +1,12 @@
+Text Processing
+text = "Product is worth and it nice to use this product...!!! :)"
+1. Tokenization
+tokens = ["Product", "is", "worth", "and", "it", "is", "nice", "to", "use", "this", "product", ".",""!",":",")"]
+2. Remove stopwords (is, are, that, this, of, by, if, and, I, what) and punctuation (!@#$%^&:"'[].,)
+tokens = ["product","worth","nice","use","product"]
+3. Lemmatization / Stemming -> "playing" -> "play",  "bought" -> "buy", "watching" -> "watch"
+4. Bag of words
+   - Vectorization
+     - CountVectorization
+     - TF-IDF -> Term Frequency - Inverse Document Frequency -> Imapct of a word
+
